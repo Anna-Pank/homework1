@@ -39,7 +39,7 @@ button  {
     padding-top: 196px;
     padding-bottom: 156px;
     position: relative;
-    z-index: 100px;
+    z-index: 100;
 }
 
 
@@ -104,7 +104,7 @@ button  {
 
 .about  {
     position: relative;
-    z-index: 0px;
+    z-index: 10;
     padding-top: 94px;
     background: url(img/star-about-big.svg) top 77px left 814px no-repeat,
                 url(img/star-about-1.svg) top 770px left 29px no-repeat,
@@ -191,6 +191,8 @@ button  {
         text-align: left;
         padding-top: 46px;
         padding-bottom: 72px;
+        position: relative;
+        z-index: 10;
         background: url(img/star-min-1.svg) top 93px left 1327px no-repeat,
                 url(img/star-min-2.svg) top 126px left 1370px no-repeat,
                 url(img/star-min-3.svg) top 3366px left 1369px no-repeat,
